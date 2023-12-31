@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#problem {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    background-color: beige;
+    width: 140px;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.input-container input {
+    background-color: rgb(236, 236, 236);
+    font-size: 18px;
+    width: 90%;
+    height: 90%;
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-container.correct {
+    border: 2px solid green;
+}
+
+.input-container.wrong {
+    border: 2px solid red;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#generate {
+    text-align: center;
+    border: 0;
+    outline: 0;
+    width: 90px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#check{
+    border: 0;
+    outline: 0;
+    width: 90px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    
+}
+#generate-container{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color: black;
+    
+}
+#check-container{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+}
+#counter {
+    font-size: 18px;
+    margin-top: 10px;
+}
